@@ -1,0 +1,64 @@
+/*
+
+    Det minsta CSS vi behöver nu
+    
+*/
+
+h1{
+    font-family: 'BebasNeueRegular', sans-serif;
+    font-size:10vw;
+}
+
+img {
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:90%;
+  max-height:100%;
+
+  box-shadow: 0px 5px 5px #000000a4;
+  }
+
+div{
+    margin: auto;
+    max-width: 600px;
+    border: 3px solid black;
+    padding: 25px;
+    text-align: center;
+    font-family: 'BebasNeueRegular', sans-serif;
+    box-shadow: 10px 10px 5px #000000a4;
+}
+.btn{
+    padding: 70px 0;
+    border: 3px solid black;
+    background-color: aliceblue;
+    box-shadow: 5px 5px 5px #000000a4;
+ 
+   
+}
+   
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url(BebasNeue-Regular.ttf);
+    src: url(BebasNeueRegular.eot?#iefix) format('embedded-opentype'),
+         url(BebasNeue-Regular.woff) format('woff'),;
+
+    font-weight: normal;
+    font-style: normal;
+}
+
+@media (max-width: 1200px){
+
+    h1{
+        text-align: center;
+    
+    }
+
+
+
+
+    img{
+        box-shadow: 10px 10px 5px #000000a4;
+        border-radius: 10px;
+    }
+}
